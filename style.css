@@ -10,17 +10,19 @@ body {
 }
 
 #header {
-  width: 100%;
+  display: flex;
+  width: 1660px;
   height: 80px;
   background-color: rgb(238, 238, 238);
   position: fixed;
   top: 0;
+  margin: 0 auto;
 }
 
 #header-img {
-  width: 300px;
-  margin-top: -6px;
-  margin-left: 40px;
+  height: 45%;
+  margin-top: 20px;
+  margin-left: 35px;
   vertical-align: middle;
 }
 
@@ -28,11 +30,11 @@ body {
   display: inline-block;
   margin-left: 867px;
   margin-top: 12px;
+  object-fit: cover;
 }
 
 nav ul {
   width: 515px;
-  height: 50px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -45,7 +47,6 @@ a {
 
 main {
   max-width: 1000px;
-  //height: 100vh;
   margin: 80px auto;
 }
 
@@ -189,4 +190,14 @@ footer p {
   margin: -12px 20px 0 0;
   font-size: 14px;
   font-weight: lighter;
+}
+
+@media only screen and (max-width: 550px) {
+#nav-bar {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 12px;
+  object-fit: cover;
+}
+
 }

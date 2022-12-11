@@ -1,0 +1,192 @@
+* {
+  //border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(238, 238, 238);
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(238, 238, 238);
+  position: fixed;
+  top: 0;
+}
+
+#header-img {
+  width: 300px;
+  margin-top: -6px;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+#nav-bar {
+  display: inline-block;
+  margin-left: 867px;
+  margin-top: 12px;
+}
+
+nav ul {
+  width: 515px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  max-width: 1000px;
+  //height: 100vh;
+  margin: 80px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#email, #submit {
+  display: block;
+  margin: 0 auto;
+}
+
+#email {
+  width: 280px;
+  height: 30px;
+}
+
+#submit {
+  background-color: #f1c40f;
+  color: black;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px 15px;
+  margin-top: 15px;
+}
+
+.form {
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+}
+
+.desc {
+  display: flex;
+  height: 125px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.icon {
+  display: flex;
+  min-width: 200px;
+  height: 125px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-style {
+  font-size: 50px;
+  color: darkorange;
+}
+
+#Features {
+  margin-bottom: 50px;
+}
+
+#How_It_Works {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.trombones {
+  width: 332px;
+  height: 330px;
+}
+
+#Pricing {
+  display: flex;
+}
+
+.trombones {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.trombones header {
+  font-weight: 700;
+  padding: 18px 0;
+  background-color: #dddddd;
+}
+
+.trombones h1 {
+  font-weight: 700;
+}
+
+.trombones p {
+  margin-bottom: 10px;
+}
+
+.trombones button {
+  font-size: 16px;
+  background-color: #f1c40f;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  width: 1000px;
+  height: 80px;
+  background-color: #dddddd;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: -5px;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer li:last-of-type {
+  margin-right: 30px;
+}
+
+footer p {
+  margin: -12px 20px 0 0;
+  font-size: 14px;
+  font-weight: lighter;
+}
